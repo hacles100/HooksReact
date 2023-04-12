@@ -1,4 +1,5 @@
 import Counter from "./components/Counter";
+import Posts from "./components/Posts";
 
 function App() {
 
@@ -6,6 +7,9 @@ function App() {
   return (
     <div>
       <Counter/>
+
+      <hr />
+      <Posts/>
     </div>
   );
 }
